@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Test" FontFamily="Arial" FontSize="20"></Button>
-        <TextBlock Text="TextBlock"></TextBlock>
+        <TextBlock Text="InputTextBox" Width="200" Height="30" HorizontalAlignment="Left" Margin="240,50,0,0"></TextBlock>
+        <Button Content="Submit" FontFamily="Arial" FontSize="20" Width="200" Height="30" HorizontalAlignment="Left" Margin="240,50,0,0" Click="SubmitButton_Click"></Button>
     </Grid>
 </Window>

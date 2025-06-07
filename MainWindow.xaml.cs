@@ -24,5 +24,10 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        {
+            //string inputText = InputTextBox.Text;
+            MessageBox.Show($"Hello World");
+        }
     }
 }
